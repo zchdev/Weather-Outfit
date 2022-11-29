@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D770D9662936796E00B155DB /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770D9652936796E00B155DB /* WeatherButton.swift */; };
 		D78B6A54292D150C00989E61 /* Weather_OutfitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B6A53292D150C00989E61 /* Weather_OutfitApp.swift */; };
 		D78B6A56292D150C00989E61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B6A55292D150C00989E61 /* ContentView.swift */; };
 		D78B6A58292D150D00989E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78B6A57292D150D00989E61 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D770D9652936796E00B155DB /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherButton.swift; path = Components/WeatherButton.swift; sourceTree = "<group>"; };
 		D78B6A50292D150C00989E61 /* Weather Outfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Outfit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78B6A53292D150C00989E61 /* Weather_OutfitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_OutfitApp.swift; sourceTree = "<group>"; };
 		D78B6A55292D150C00989E61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				D78B6A53292D150C00989E61 /* Weather_OutfitApp.swift */,
 				D78B6A55292D150C00989E61 /* ContentView.swift */,
+				D770D9652936796E00B155DB /* WeatherButton.swift */,
 				D78B6A57292D150D00989E61 /* Assets.xcassets */,
 				D78B6A59292D150D00989E61 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				D78B6A56292D150C00989E61 /* ContentView.swift in Sources */,
 				D78B6A54292D150C00989E61 /* Weather_OutfitApp.swift in Sources */,
+				D770D9662936796E00B155DB /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
